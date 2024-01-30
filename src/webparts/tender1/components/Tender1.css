@@ -1,0 +1,337 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+
+*{
+
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+
+}
+
+
+
+
+.cardTender{
+
+  width:90%;
+  padding:0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 2rem ;
+
+}
+
+
+
+
+.section1{
+
+  /* background-color: red; */
+  width:100%;
+  margin-top:1rem;
+
+}
+.section1 input{
+  /* border:1px solid black;
+  outline:none; */
+  border:1px solid #CD2D2D;
+  box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    outline:none;
+    width:100%;
+    padding:6px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.section1 textarea{
+
+  border:1px solid #CD2D2D;
+  box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    outline:none;
+    width:100%;
+    padding:6px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    margin-top: 7px;
+    border-radius: 5px;
+
+}
+
+.section1 select{
+width:100%;
+
+
+}
+
+.section2{
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top:20px;
+
+}
+
+.rowClass{
+
+  margin-bottom: 2rem;
+  padding:10px 0;
+}
+
+.rowClass select{
+  /* width:83%; */
+  color:black;
+  width:100%;
+  border:1px solid #CD2D2D;
+  box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+  outline:none;
+  border-radius: 5px;
+  padding:6px 4px;
+}
+
+
+.btnsgrp{
+  margin-top: 1rem;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.btnsgrp-2 button{
+  background-color:#0000FF;
+  border-radius: 6px;
+  padding:8px 20px;
+  outline: none;
+  border:1px solid black;
+  color:#ffff;
+
+}
+
+.btnsgrp-1 button{
+  background-color:red;
+  border-radius: 6px;
+  padding:8px 20px;
+  outline: none;
+  border:1px solid black;
+  color:#ffff;
+
+}
+
+
+
+
+
+/* 
+.footer{
+
+  background-color: #ef3340;
+  margin-bottom: 0;
+ 
+  margin-top:1rem ;
+
+}
+
+.footer-heading{
+display:flex;
+  align-items: center;
+  justify-content: center;
+padding:10px 0;
+
+} */
+
+
+
+.rowClass input{
+
+  border:1px solid #CD2D2D;
+  box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    outline:none;
+    width:100%;
+    padding:6px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    margin-top: 7px;
+    border-radius: 5px;
+  
+
+}
+
+
+.header-heading h3{
+  color:#ffff;
+}
+
+.section1 label{
+  color:#CD2D2D;
+  font-size: 15px;
+  font-weight: 600;
+padding-top: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rowClass label{
+  color:#CD2D2D;
+  font-size: 15px;
+  font-weight: 600;
+ padding-top: 4px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* .footer-heading h6{
+  color:#ffff;
+} */
+
+.rowClass p{
+  color:#CD2D2D;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 4px;
+}
+
+
+
+/* // file csss */
+
+
+
+.rowClass input[type="file"] {
+  vertical-align: bottom;
+  outline:none;
+  border:1px solid #CD2D2D;
+  box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    padding:6px 4px;
+    /* margin-top: 7px; */
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* // switch toggle */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #0000FF;
+}
+
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+/* 
+.p-component:disabled, .p-disabled{
+
+  display:none
+}
+
+.p-fileupload-buttonbar .p-button .p-component{
+  display:none
+
+} */
+
+
+
+div.file-upload-wrapper .p-button {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+.form{
+
+
+  border :1px dashed black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

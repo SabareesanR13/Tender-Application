@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+    #workbenchPageContent,
+    .CanvasComponent.LCS .CanvasZone {
+      max-width: 100% !important;
+    }
+
+
+
+
+.body{
+
+    /* background-color: #f2f2f2; */
+    /* background-color: green; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+*{
+
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.cardSupplier{
+
+
+  
+    width:76%;
+    padding:0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 2rem ;
+
+}
+
+
+
+
+
+
+
+.section2{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top:20px;
+
+}
+
+.rowclass{
+
+    margin-bottom: 2rem;
+    padding:10px 0;
+}
+
+.rowclassPeople{
+
+    margin-bottom: 2rem;
+    padding:10px 0;
+
+
+}
+
+.btnsgrp{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .btnsgrp-1 button{
+    background-color:#0000FF;
+    border-radius: 6px;
+    padding:8px 20px;
+    outline: none;
+    border:1px solid black;
+    color:#ffff;
+  
+  }
+  
+  .btnsgrp-2 button{
+    background-color:red;
+    border-radius: 6px;
+    padding:8px 20px;
+    outline: none;
+    border:1px solid black;
+    color:#ffff;
+  
+  }
+  
+
+ 
+/* 
+
+.footer{
+
+background-color:#ef3340;
+    margin-bottom: 0;
+   
+    margin-top:1rem ;
+
+}
+
+.footer-heading{
+display:flex;
+    align-items: center;
+    justify-content: center;
+padding:10px 0;
+
+}
+
+.footer-heading h6{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#ffff;
+
+}
+
+
+ */
+
+
+.rowclass input{
+
+    border:1px solid #CD2D2D;
+    border-radius: 5px;
+    /* box-shadow: -12px -8px 40px 0px rgba(70,70,70,0.12) inset; */
+    box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    outline:none;
+    width:100%;
+    padding:6px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+    margin-top: 7px;
+    
+}
+.ms-BasePicker-text{
+    
+    border: 1px solid #CD2D2D ;
+    box-shadow: 0px 5px 10px 0px rgba(214, 117, 117, 0.80);
+    outline: none;
+    border-radius: 5px;
+    padding:2px 2px;
+}
+
+
+
+.section1 label{
+    color:#CD2D2D;
+    font-size: 15px;
+    font-weight: 600;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4px;
+}
+
+.rowclass label{
+    color:#CD2D2D;
+    font-size: 15px;
+    font-weight: 600;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.rowclassPeople label{
+    color:#CD2D2D;
+    font-size: 15px;
+    font-weight: 600;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rowclass-checkbox{
+
+    padding:10px 0;
+    margin-top:10px;
+
+}
+
+
+
+.rowclass-checkbox input{
+   
+    margin-top:3px;
+}
+
+.rowclass-checkbox p{
+    margin:0;
+    font-weight: 600;
+    font-size: 15px;
+    
+
+}
+
+
+
+
+.rowclass input[type="file"] {
+    vertical-align: bottom;
+    border:1px solid #CD2D2D;
+    outline:none;
+}
+
+/* // file csss */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

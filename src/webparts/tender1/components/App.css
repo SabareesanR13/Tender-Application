@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+*{
+
+
+  margin: 0;
+  padding: 0;
+}
+
+
+#workbenchPageContent,
+.CanvasComponent.LCS .CanvasZone {
+  max-width: 100% !important;
+}
+
+
+
+
+
+
+
+.App{
+
+
+width: 100%;
+
+
+box-sizing: border-box;
+
+height: 100%;
+
+}
+
+.app-components{
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
+
+.cardApp{
+  padding:0 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  /* margin: 5px 5px; */
+
+
+}
