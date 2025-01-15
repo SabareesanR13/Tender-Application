@@ -1,0 +1,8 @@
+name: Tender
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: print Sabari
+          run: echo "Done Running"
